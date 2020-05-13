@@ -1,0 +1,28 @@
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+nav .MuiButtonBase-root {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.MuiTypography-root {
+  font-size: 0.875rem !important;
+  color: black;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}

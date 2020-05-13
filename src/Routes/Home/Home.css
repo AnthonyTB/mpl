@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+header {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.left-content img {
+  height: auto;
+  width: 1000px;
+  float: left;
+}
+
+.right-content {
+  margin: auto auto;
+  text-align: right;
+  margin-right: 250px;
+}
+
+.right-content span {
+  font-size: 30px;
+  color: #283018;
+  font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+  font-size: 4em;
+  font-family: 'Noto Serif JP', serif;
+  color: #283018;
+  margin-bottom: 5px;
+}
+
+header hr {
+  height: 2px;
+  background: #aa863a;
+}
+
+section h1 {
+  font-size: 3em;
+  font-family: 'Noto Serif JP', serif;
+  color: #283018;
+}
+
+.PhotoShowcase,
+.SocialsShowcase,
+.ContentShowcase {
+  margin: auto auto;
+  width: 80%;
+}
+
+.PhotoShowcase h1,
+.SocialsShowcase h1,
+.ContentShowcase h1 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.PhotoShowcase hr,
+.SocialsShowcase hr,
+.ContentShowcase hr {
+  height: 2px;
+  background: #aa863a;
+  width: 350px;
+  margin: 0;
+}
