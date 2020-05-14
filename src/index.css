@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  background: #181818;
 }
 
 ::-webkit-scrollbar {
@@ -18,4 +19,25 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Soulmaze-Outline';
+  src: local('Soulmaze-Outline'),
+    url('./Assets/Fonts/MADE Soulmaze Outline Italic PERSONAL USE.otf')
+      format('opentype');
+}
+
+@font-face {
+  font-family: 'Soulmaze';
+  src: local('Soulmaze'),
+    url('./Assets/Fonts/MADE Soulmaze Italic PERSONAL USE.otf')
+      format('opentype');
+}
+
+@font-face {
+  font-family: 'Soulmaze-Brush';
+  src: local('Soulmaze-Brush'),
+    url('./Assets/Fonts/MADE Soulmaze Brush PERSONAL USE.otf')
+      format('opentype');
 }

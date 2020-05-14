@@ -1,10 +1,10 @@
 import React from 'react';
+import './SocialShowcase.css';
 
 export default function SocialShowcase() {
   return (
     <>
       <h1>Social Media</h1>
-      <hr />
       <ul>
         <li>instagram</li>
         <li>twitter</li>

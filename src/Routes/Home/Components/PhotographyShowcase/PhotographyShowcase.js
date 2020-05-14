@@ -9,13 +9,15 @@ export default function PhotographyShowcase() {
   return (
     <>
       <h1>Photography</h1>
-      <hr />
       <ul className='gallery'>
         {instagramData.graphql.user.edge_owner_to_timeline_media.edges.map(
           (item) => {
             return (
               <li>
-                <Link to=''>
+                <a
+                  href={`https://www.instagram.com/p/${item.node.shortcode}/`}
+                  target='blank_'
+                >
                   <img
                     src={item.node.display_url}
                     alt={item.node.accessibility_caption}
@@ -26,7 +28,7 @@ export default function PhotographyShowcase() {
                       {item.node.edge_liked_by.count}
                     </span>
                   </div>
-                </Link>
+                </a>
               </li>
             );
           }

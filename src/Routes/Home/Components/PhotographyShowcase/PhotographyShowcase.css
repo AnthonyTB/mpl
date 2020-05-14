@@ -1,7 +1,7 @@
 .gallery {
   list-style: none;
   padding: 20px;
-  background: #fff;
+  background: #333533;
   box-shadow: 0px 11px 21px 0px rgba(0, 0, 0, 0.5);
   margin-top: 50px;
   margin-bottom: 50px;
@@ -44,9 +44,10 @@
 }
 
 .gallery li img {
-  width: 490.5px !important;
-  height: auto !important;
+  width: 490.5px;
+  height: auto;
   transition: ease-in-out 0.5s;
+  overflow-y: hidden;
 }
 
 .gallery li img:hover {
