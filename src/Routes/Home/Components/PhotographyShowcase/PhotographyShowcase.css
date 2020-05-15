@@ -41,13 +41,14 @@
   -ms-flex-item-align: auto;
   align-self: auto;
   margin: 4px;
+  overflow-y: hidden;
+  height: 325px;
 }
 
 .gallery li img {
   width: 490.5px;
   height: auto;
   transition: ease-in-out 0.5s;
-  overflow-y: hidden;
 }
 
 .gallery li img:hover {

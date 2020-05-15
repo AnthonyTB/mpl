@@ -14,7 +14,10 @@ export default function Home() {
           <h1>Jared</h1>
           <h1>Robinson</h1>
           <hr />
-          <span>content creator, photographer, avid dog lover</span>
+          <span>
+            content creator<span className='dot'>.</span> photographer
+            <span className='dot'>.</span> avid dog lover
+          </span>
         </div>
         <div className='right-content'></div>
       </header>

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
 header {
   padding: 0;
@@ -22,9 +22,16 @@ header {
 }
 
 .left-content span {
-  font-size: 20px;
+  font-size: 23px;
   color: #c5c3c6;
   font-family: 'Roboto', sans-serif;
+}
+
+header .dot {
+  color: #f7293d;
+  font-size: 15px;
+  margin-left: 2px;
+  font-family: Soulmaze;
 }
 
 header h1 {
