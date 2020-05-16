@@ -8,6 +8,7 @@ import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
+import { Menu } from '../../Assets/';
 
 const useStyles = makeStyles({
   list: {
@@ -62,10 +63,12 @@ export default function Navigation() {
   );
 
   return (
-    <div>
+    <div className='menu'>
       {['right'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>MENU</Button>
+          <Button onClick={toggleDrawer(anchor, true)}>
+            <img src={Menu} alt='menu button' />
+          </Button>
           <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}

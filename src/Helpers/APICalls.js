@@ -46,7 +46,7 @@ export const APIcalls = {
       method: 'GET',
       headers: {
         'content-type': 'application/json',
-        'Client-ID': '0kecjpe20pt63ts9he0gnlhdb8h8ey',
+        'Client-ID': 'miqpryw3ejg6xvadet2m89ahzucab2',
       },
     }).then((res) =>
       !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json()
@@ -57,7 +57,8 @@ export const APIcalls = {
       method: 'GET',
       headers: {
         'content-type': 'application/json',
-        'Client-ID': '0kecjpe20pt63ts9he0gnlhdb8h8ey',
+        'Client-ID': 'miqpryw3ejg6xvadet2m89ahzucab2',
+        Authorization: `Bearer ${config.TwitchToken}`,
       },
     }).then((res) =>
       !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json()

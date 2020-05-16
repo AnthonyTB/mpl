@@ -1,7 +1,6 @@
 export default {
   // Tokens
   TwitterToken: process.env.REACT_APP_TwitterToken,
-  YoutubeToken: process.env.REACT_APP_YoutubeToken,
   TwitchToken: process.env.REACT_APP_TwitchToken,
 
   // Endpoints
