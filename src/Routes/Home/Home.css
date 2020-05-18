@@ -10,6 +10,10 @@ header {
   align-items: center;
 }
 
+main {
+  width: 90%;
+}
+
 .left-content {
   float: left;
   text-align: left;
@@ -21,8 +25,8 @@ header {
   width: 69%;
 }
 
-.left-content span {
-  font-size: 23px;
+.right-content span {
+  font-size: 33px;
   color: #c5c3c6;
   font-family: 'Roboto', sans-serif;
 }
@@ -62,15 +66,39 @@ section h1 {
 }
 
 .PhotoShowcase,
-.SocialsShowcase,
 .ContentShowcase {
-  margin: auto auto;
-  width: 80%;
+  margin: auto;
+  width: 70%;
 }
 
-.PhotoShowcase h1,
-.SocialsShowcase h1,
-.ContentShowcase h1 {
-  text-align: left;
-  margin-bottom: 10px;
+.SocialsShowcase {
+  width: 30%;
+}
+
+.route-btn a {
+  border-radius: 100rem;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-size: 0.8rem;
+  padding: 0.5rem 2rem;
+  color: #dcdcdd;
+  border: solid 3px transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #181818 inset;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(to right, #f7293d, #f7293d);
+}
+
+.route-btn {
+  margin-bottom: 120px;
+  margin-top: 50px;
+  float: left;
+}
+
+.PhotoShowcase .route-btn {
+  margin-top: 0;
 }

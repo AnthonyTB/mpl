@@ -128,3 +128,7 @@
     );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
+
+.SocialsShowcase {
+  float: right;
+}

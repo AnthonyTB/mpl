@@ -1,0 +1,33 @@
+.ContentShowcase .video-container {
+  background: #333533;
+  box-shadow: 0px 11px 21px 0px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 20px;
+  height: 440.22px;
+  width: 780px;
+}
+
+.ContentShowcase .video-container iframe {
+  border-radius: 10px;
+}
+
+.ContentShowcase .status {
+  text-align: left;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.ContentShowcase .status i {
+  font-size: 7px;
+  margin-left: 5px;
+  position: absolute;
+  top: 8.5px;
+}
+
+.ContentShowcase .status .true {
+  color: lime;
+}
+
+.ContentShowcase .status .false {
+  color: #f7293d;
+}

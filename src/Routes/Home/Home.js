@@ -5,6 +5,7 @@ import {
   ContentShowcase,
 } from './Components';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -13,23 +14,31 @@ export default function Home() {
         <div className='left-content'>
           <h1>Jared</h1>
           <h1>Robinson</h1>
-          <hr />
+        </div>
+        <div className='right-content'>
           <span>
             content creator<span className='dot'>.</span> photographer
             <span className='dot'>.</span> avid dog lover
           </span>
         </div>
-        <div className='right-content'></div>
       </header>
-      <section className='SocialsShowcase'>
-        <SocialShowcase />
-      </section>
-      <section className='ContentShowcase'>
-        <ContentShowcase />
-      </section>
-      <section className='PhotoShowcase'>
-        <PhotographyShowcase />
-      </section>
+      <main>
+        <section className='SocialsShowcase'>
+          <SocialShowcase />
+        </section>
+        <section className='ContentShowcase'>
+          <ContentShowcase />
+          <div className='route-btn'>
+            <Link to='/Photography'>Learn More</Link>
+          </div>
+        </section>
+        <section className='PhotoShowcase'>
+          <PhotographyShowcase />
+          <div className='route-btn'>
+            <Link to='/Photography'>Learn More</Link>
+          </div>
+        </section>
+      </main>
     </>
   );
 }

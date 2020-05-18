@@ -34,7 +34,6 @@ export default function SocialShowcase() {
         instagramData,
         twitchFollowers ? (
           <>
-            <h1>Social Media</h1>
             <ul>
               <li>
                 <i class='fab fa-twitter'></i>

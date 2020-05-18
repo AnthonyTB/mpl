@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { Context } from '../../../../Components/Context/Context';
-import { Link } from 'react-router-dom';
 import './PhotographyShowcase.css';
 
 export default function PhotographyShowcase() {
@@ -8,7 +7,6 @@ export default function PhotographyShowcase() {
 
   return (
     <>
-      <h1>Photography</h1>
       <ul className='gallery'>
         {instagramData.graphql.user.edge_owner_to_timeline_media.edges.map(
           (item) => {
@@ -34,9 +32,6 @@ export default function PhotographyShowcase() {
           }
         )}
       </ul>
-      <div className='route-btn'>
-        <Link to='/Photography'>Learn More</Link>
-      </div>
     </>
   );
 }
